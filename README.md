@@ -51,8 +51,8 @@ That's it! Then setup your web-hook subscriptions and test using cURL (both desc
 
 ## Setup Web-Hook Subscriptions
 
-* In your Stripe account settings add this as a webhook: http://[host]:[port]/cha-ching/stripe
-* In your Dwolla account settings add this as a webhook: http://[host]:[port]/cha-ching/dwolla
+* In your Stripe account settings add this as a webhook: http://[host]:[port]/cha-ching/stripe (from [https://manage.stripe.com/account/webhooks](https://manage.stripe.com/account/webhooks))
+* In your Dwolla account settings add this as a webhook: http://[host]:[port]/cha-ching/dwolla (from [https://www.dwolla.com/applications](https://www.dwolla.com/applications), click "Edit Features", and add to "TransactionStatus URL").
 * Change the port and path accordingly if you change them in your config.js
 
 ## Testing: cURL
