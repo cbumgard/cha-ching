@@ -1,0 +1,20 @@
+{
+  "name": "cha-ching",
+  "description": "Listens for payment webhooks via Stripe or Dwolla and responds by notifying a list of people via Twilio SMS",
+  "author": "Chris Bumgardner <cbumgard@gmail.com>",    
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "2.5.x",
+    "optimist": "0.3.x",
+    "twilio": "0.3.x",
+    "underscore": "1.4.x"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbumgard/cha-ching"
+  }   
+}
